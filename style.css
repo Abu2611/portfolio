@@ -1139,3 +1139,116 @@ footer
     
 }
 
+@media only screen and (max-width: 600px){
+.col-left .about-img {
+    height: 100%;
+    width: 98%;
+    position: relative;
+    border: 10px solid white;
+    margin-left: 7%;
+}
+.col h3 {
+    width: fit-content;
+    margin-bottom: 22px;
+    position: relative;
+    margin-top: 24px;
+}
+#services .service-top p {
+    font-size: 12px;
+    color: black;
+    margin-top: 29px;
+    line-height: 2.5rem;
+    font-weight: 300px;
+    letter-spacing: .05rem;
+}
+}
+
+@media only screen and (max-width: 1200px){
+       
+    .c-button--gooey{
+    margin-left: 105%;
+}
+}  
+
+@media only screen and (max-width: 900px){
+.nav-list ul{
+    left: 111%;
+}
+}
+
+@media only screen and (max-width: 900px){
+    .nav-list ul{
+    left: 116%
+}
+}
+@media only screen and (max-width: 800px){
+    #about .col-left .about-img {
+        
+        margin-left: 31%;
+    }
+}
+@media only screen and (max-width: 700px){
+    button {
+        position: relative;
+        padding: 1em 1.8em;
+        outline: none;
+        border: 1px solid #303030;
+        background: #212121;
+        color: #ae00ff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 15px;
+        overflow: hidden;
+        transition: 0.2s;
+        border-radius: 20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-left: 10%;
+        margin-top: 17px;
+    }
+}
+@media only screen and (max-width: 600px){
+    #header .nav-list ul {
+        list-style: none;
+        position: absolute;
+        background-color: rgb(31, 30, 30);
+        width: 100vw;
+        height: 100vh;
+        left: 113%;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        overflow-x: hidden;
+        transition: 0.5s ease left;
+    }
+    .section-title {
+        font-size: 4rem;
+        font-family: 300;
+        color: black;
+        margin-bottom: -6px;
+        text-transform: uppercase;
+        letter-spacing: .2rem;
+        padding-top: -16%;
+        margin-top: 11%;
+    }
+    .c-button--gooey {
+        margin-left: -11%;
+        padding-top: 3%;
+        margin-top: 21%;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    #about .col-left .about-img {
+        margin-left: 11%;
+    }
+    .pro {
+        margin-left: 5px;
+        margin-top: -28%;
+        color: #FFD;
+    }
+}
+
